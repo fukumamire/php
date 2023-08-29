@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- formタグには、action属性でユーザーが入力したデータの送信先をパスで指定。 -->
+    <!-- <form action="course.php" method="post"> -->
+    <form action="course.php" method="get">
+        <label>会社名:<input type="text" name="company"></label>
+        <br />
+        <!-- inputタグは閉じタグが必要ないもの -->
+        <input type="submit" name="submit" value="送信する" />
+    </form>
+</body>
+
+</html>

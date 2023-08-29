@@ -1,0 +1,50 @@
+.search-form__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+/*  日本の～の文字の位置調整など*/
+.search-form__heading {
+    margin-bottom: 40px;
+    /* text-alignプロパティは、文字や画像に対して、水平方向の揃え方を指定するプロパティです。 */
+
+    text-align: center;
+}
+
+.search-form {
+    /* justify-content は、flexアイテムの配置を指定するプロパティです。左寄せ・中央寄せ・右寄せなどの配置や、flexアイテム同士の余白などを指定できます。 justify-content の余白は、主軸方向につけられます。主軸とは、flexアイテムが並ぶ向き（縦・横）のことを指します。基本的に主軸は水平（横）方向ですが、flex-direction の値が column または column-reverse のときは垂直（縦）方向へと変化します。 */
+    display: flex;
+    justify-content: center;
+}
+
+.search-form__item {
+    padding: 0 5px;
+    width: 300px;
+}
+
+.search-form__item-select {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.search-form__button {
+    padding: 0 5px;
+    width: 120px;
+}
+
+.search-form__button-submit {
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}

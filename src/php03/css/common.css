@@ -1,0 +1,18 @@
+.header {
+    background: black;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    /* ↓要素が １２３０ｐｘ以下/*/
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #fff;
+    /*↓テキストの装飾をしない */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
